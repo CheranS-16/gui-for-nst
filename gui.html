@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Scanning Tool</title>
+    <link rel="stylesheet" href="gui.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Network Scanning Tool</h1>
+        <p>Enter the IP range to scan and see all connected devices:</p>
+
+        <!-- Input form for IP range -->
+        <div class="input-group">
+            <label for="ip-range">Enter IP Range (e.g., 192.168.1.1/24):</label>
+            <input type="text" id="ip-range" placeholder="192.168.1.1/24">
+            <button id="scan-button">Start Scan</button>
+        </div>
+
+        <!-- Results section -->
+        <div id="results" class="results">
+            <!-- Results will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="gui.js"></script>
+</body>
+</html>
